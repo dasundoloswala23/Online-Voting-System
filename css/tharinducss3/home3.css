@@ -1,0 +1,371 @@
+.heading{
+position : absolute;
+top: 8%;
+left : 15%;}
+
+.topic{
+background-image: url("../Images/milky way.jpg");
+	background-size:100%;
+}
+
+.butto:hover{
+			background-color:#1976D2;
+		}
+		
+.butto2:hover{
+			background-color:#1976D2;
+		}
+		
+.butto a{
+    color:white;
+    text-decoration:none;
+}		
+.butto{
+background-color: #1A237E ; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+position : absolute;
+top: 20px;
+right : 12px;
+}
+
+.butto2{
+background-color: #1A237E; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+position : absolute;
+top: 20px;
+right : 100px;
+}
+
+ul.menu{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			background-color:black;
+			overflow:hidden;
+		
+        }
+		
+li.menu{
+			float:center;
+      }
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+			background-color:#1976D2;
+		}
+#navcenter {
+width:1350px;
+margin:100;
+list-style:none;
+}
+#navcenter li {
+float:left;
+}
+#navcenter a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
+#active2{ background-color: #1A237E ; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.vertical-menu {
+  width: 12%; /* Set a width if you like */
+  background-color:black;
+  float:left;
+  
+  height:330%;
+}
+
+.vertical-menu a {
+  text-align:center;
+  background-color: black;
+  color: white;
+  display: block; 
+  padding: 21px; 
+  
+}
+
+.vertical-menu a:hover {
+  background-color: #1976D2; /* Dark grey background on mouse-over */
+}
+
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+
+.topnav {
+  background-color:black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: middle;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 23px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#1565C0;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #283593;
+  color: white;
+}
+
+
+.list
+{
+	margin: 0;
+	padding: 20px;
+	
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+	section
+{
+	padding:20px;
+	width:1280px;
+	margin: 40px auto;
+}
+section 
+{
+	display: flex;
+	margin-bottom: 10px;
+}
+section ul li
+{
+	list-style: none;
+	background: #eee;
+	padding: 8px 20px;
+	margin: 5px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+section ul li.active
+{
+	background: #03a9f4;
+	color: #fff;
+}
+.image
+{
+	display: flex;
+	
+}.heading{
+position : absolute;
+top: 8%;
+left : 15%;}
+
+.topic{
+background-image: url("../Images/milky way.jpg");
+		background-size:100%;
+}
+
+.butto:hover{
+			background-color:#1976D2;
+		}
+		
+.butto2:hover{
+			background-color:#1976D2;
+		}
+	.butto a{
+    color:white;
+		text-decoration:none;}			
+.butto{
+background-color: #1A237E ; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+position : absolute;
+top: 20px;
+right : 15px; 
+}
+.rbutto a{
+    color:white;
+    text-decoration:none;
+}
+
+.butto2{
+background-color: #1A237E; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+position : absolute;
+top: 20px;
+right : 100px;
+}
+
+.rbutto{
+background-color: #1A237E ; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+position : absolute;
+top: 25px;
+right : 15px;
+}
+
+.rbutto2{
+position : absolute;
+top: 20px;
+right : 110px;
+}
+
+
+ul.menu{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			background-color:black;
+			overflow:hidden;
+		
+        }
+		
+li.menu{
+			float:center;
+      }
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+			background-color:#1976D2;
+		}
+#navcenter {
+width:1350px;
+margin:100;
+list-style:none;
+}
+#navcenter li {
+float:left;
+}
+#navcenter a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
+#active2{ background-color: #1A237E ; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.vertical-menu {
+  width: 12%; /* Set a width if you like */
+  background-color:black;
+  float:left;
+  
+  height:150%;
+}
+
+.vertical-menu a {
+  text-align:center;
+  background-color: black;
+  color: white;
+  display: block; 
+  padding: 21px; 
+  
+}
+
+.vertical-menu a:hover {
+  background-color: #1976D2; /* Dark grey background on mouse-over */
+}
+
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+
+.topnav {
+  background-color:black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: middle;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 23px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#1565C0;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #283593;
+  color: white;
+}
+
+
+.zai
+{
+	margin-left:40%;
+}
+
+
+.rtz
+{
+	margin-left:30%;
+}
+

@@ -1,0 +1,240 @@
+.heading{
+position : absolute;
+top: 8%;
+left : 15%;}
+
+.topic{
+background-image: url("milky way.jpg");
+}
+
+.butto:hover{
+			background-color:#1976D2;
+		}
+		
+.butto2:hover{
+			background-color:#1976D2;
+		}
+		
+.butto{
+background-color: #1A237E ; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+position : absolute;
+top: 20px;
+right : 15px; 
+}
+
+.butto a{
+text-decoration: none;
+color: white;
+}
+
+
+.butto2{
+position : absolute;
+top: 20px;
+right : 110px;
+}
+
+
+ul.menu{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			background-color:black;
+			overflow:hidden;
+		
+        }
+		
+li.menu{
+			float:center;
+      }
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+			background-color:#1976D2;
+		}
+#navcenter {
+width:1350px;
+margin:;
+list-style:none;
+}
+#navcenter li {
+float:left;
+}
+#navcenter a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
+#active2{ background-color: #1A237E ; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+
+.vertical-menu {
+  width: 12%; /* Set a width if you like */
+  background-color:black;
+  float:left;
+  height:170%;
+}
+
+.vertical-menu a {
+  text-align:center;
+  background-color: black;
+  color: white;
+  display: block; 
+  padding: 21px; 
+  
+}
+
+.vertical-menu a:hover {
+  background-color: #1976D2; /* Dark grey background on mouse-over */
+}
+
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+
+.topnav {
+  background-color:black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: middle;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 23px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#1565C0;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #283593;
+  color: white;
+}
+
+.font
+{
+	color:black;
+	font-size: 36px;
+}
+.win1{
+position:absolute;
+left:48.5%;
+top: 50%
+}
+
+.win2{
+position:absolute;
+left:27%;
+top: 55%
+}
+.win3{
+position:absolute;
+left:71%;
+top: 57%
+}
+
+.trophie1{
+position:absolute;
+left:49.3%;
+top: 92%
+}
+
+.trophie2{
+position:absolute;
+left:27.6%;
+top: 97%
+}
+
+.trophie3{
+position:absolute;
+left:71%;
+top: 99%;
+}
+
+.w1{
+position:absolute;
+left:52%;
+top: 120%
+}
+
+.w2{
+position:absolute;
+left:27%;
+top: 125%
+}
+.w3{
+position:absolute;
+left:70%;
+top: 128%
+}
+
+* {box-sizing: border-box}
+
+.container {
+  width: 50%;
+  position:sticky;
+  background-color: #ddd;
+  left:30%;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+
+.p1{
+position:sticky;
+left:31%;
+top: 128%;
+font-size:20;
+}
+.p2{
+position:sticky;
+left:31%;
+top: 148%;
+font-size:20;
+}
+
+.p3{
+position:sticky;
+left:21%;
+top: 138%;
+font-size:20;
+}
+

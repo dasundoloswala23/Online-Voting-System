@@ -1,0 +1,219 @@
+<?php
+
+require 'connection';
+
+if (isset ($_POST['submit'])){
+
+$performer1 ('round1');
+$performer2 ('round1');
+$performer3 ('round2');
+$performer4 ('round2');
+
+$sql = "INSERT INTO performer(round1,round1,round2,round2) 
+		VALUES('$performer1', '$performer2', '$performer3', '$performer4') ";
+		
+				if($con->query($sql)){
+			echo "success";
+		
+		}
+		else{
+			echo "Error:". $con->error;
+		}
+	$con->close();
+	}
+?>
+
+
+
+
+<!DOCTYPE - html>  
+
+<html>
+
+<head>
+
+
+<link rel ="stylesheet" href = "homeavishka.css">
+
+
+
+<title> Teens Got Talent </title>
+
+
+
+</head>
+
+<body>
+
+<div class="topic">
+
+  <img src="star.png" alt="Snow" style="width:15%">
+  
+  <h1 class = "heading" style ="color:white"> TEENS GOT TALENT</h1>
+  
+  <button class = "rbutto"> logout </button>
+  
+  <a href ="#">
+  <img src ="lady.png "  width ="50" height = "50" class ="rbutto2"> </a>
+  
+  </div>
+  
+  <hr class="horizontal">
+  
+
+
+
+<div class="topnav" align="center">
+  <a  href="#">News</a>
+  <a href="homepage after login.html">Home</a>
+  <a class="active" href="voting page.html">Vote</a>
+  <a href="#">sponsers</a>
+  <a href="#">Highlights</a>
+  <a href="#">Contact us</a>
+  <a href="#">Terms and conditions</a>
+</div>
+
+
+
+
+
+		
+<div  align="center" class="vertical-menu" style="height:95%;">
+		
+  <video width="182" height="182" controls>
+  
+  <source src="final.mp4" type="video/mp4">
+  
+  <source src="final.ogg" type="video/ogg">
+  
+</video>
+
+</br> </br>
+
+</br></br>
+   <font size="5px"><a href="#">View Results</a></font>
+  
+  <font size="5px"><a href="shedule after login.html">Schedule</a></font>
+  
+  <font size="5px"><a href="#">How to Vote</a></font>
+  
+  <font size="5px"><a href="#">Image Gallery</a></font>
+  
+  <font size="5px"><a href="#">Previous Videos</a></font>
+</div>
+<script src="slide.js"></script>
+<div style="background-image:url('votebackgound2.jpg');">
+<table border="1" width="88%" height="60%">
+	<tr>
+	<td> 
+	<form action="voting page.php" method = "post"></br>
+	
+		<h3 style="color:#F9E79F;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Semi Final 01</h3>
+		<center>
+		
+		<img src="avatar.png"  height=100px width=100px >
+		
+		<input type="radio" id="perform1" name="round1" value="perform1"  onclick="confirm(1)" required>
+		
+		<label for="perform1" style="color:white;">Performer 01</label>
+		
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		
+		<img src="avatar.png"  height=100px width=100px >
+		
+		<input type="radio" id="perform2" name="round1" value="perform2" onclick="confirm(2)">
+		
+		<label for="perform2" style="color:white;">Performer 02</label>
+		
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		
+		<input type="submit" name = "submit" value="Submit" class="submitbtn">
+		</center>
+	</form><hr>
+	
+	<form action="voting page.php" method = "post"></br>
+		<h3 style="color:#F9E79F;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Semi Final 02</h3>
+		<center>
+		<img src="avatar.png"  height=100px width=100px >
+		<input type="radio" id="perform3" name="round2" value="perform3" onclick="confirm(3)"required>
+		<label for="perform3" style="color:white;">Performer 03</label>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<img src="avatar.png"  height=100px width=100px >
+		<input type="radio" id="perform4" name="round2" value="perform4" onclick="confirm(4)">
+		<label for="perform4" style="color:white;">Performer 04</label>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="submit" value="Submit" class="submitbtn" onclick="confirm(5)">
+		</center>
+	</form><hr>
+	
+<form action="voting page.php" method = "post"></br>
+		<h3 style="color:#B2BABB;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Bronze Match</h3>
+		<center>
+		<img src="avatar.png"  height=100px width=100px >
+		<input type="radio" id="loose1" name="round3" value="loose1" required disabled>
+		<label for="loose1" style="color:white;">Looser of round 1</label>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<img src="avatar.png"  height=100px width=100px >
+		<input type="radio" id="loose2" name="round3" value="loose2" disabled>
+		<label for="loose1" style="color:white;">Looser of round 02</label>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="submit" value="Submit" class="submitbtn" disabled>
+		</center>
+	</form><hr>
+	
+	<form action="voting page.php" method = "post"></br>
+		<h3 style="color:#D98880 ">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Finale</h3>
+		<center>
+		<img src="avatar.png"  height=100px width=100px >
+		<input type="radio" id="winne1" name="round4" value="winne1" required disabled>
+		<label for="winne1" style="color:white;">Winner of round 1</label>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<img src="avatar.png"  height=100px width=100px >
+		<input type="radio" id="perform2" name="round4" value="perform2" disabled>
+		<label for="winne1" style="color:white;">Winner of round 2</label>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="submit" value="Submit" class="submitbtn" disabled>
+		</center>
+	</form>
+	
+	
+	
+	
+	
+	</td>
+	</tr>
+</table>
+</div>
+<script src="slide.js"></script>
+
+
+<footer  height = "50">
+	<a href="https://www.facebook.com/"> <img src = "facebook.png" align ="left" width = "50" height = "50"> </a>
+   <a href="https://www.twitter.com"><img src = "twitter.png" align ="left" width = "50" height = "50"></a>
+   <a href="https://www.instagram.com"><img src = "instagram.png" align ="left" width = "70" height = "50"></a>
+	
+  
+ <div class="slideshow-container">
+      <div class="mySlides">
+  
+        <img src="coke.jpg" width = "272" height = "80" >
+       
+      </div>
+      <div class="mySlides">
+       
+   <img src="mac.jpg"width = "272" height = "80">
+        
+      </div>
+</footer>
+
+<script src="slide.js"></script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+.heading{
+position : absolute;
+top: 8%;
+left : 15%;}
+
+
+
+.butto:hover{
+			background-color:#1976D2;
+		}
+.butto a{
+    color:white;
+    text-decoration:none;
+}
+
+
+		
+.butto2:hover{
+			background-color:#1976D2;
+		}
+		
+.butto{
+background-color: #1A237E ; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+position : absolute;
+top: 20px;
+right : 15px;
+}
+
+.butto2{
+background-color: #1A237E; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+position : absolute;
+top: 20px;
+right : 100px;
+}
+
+.butto2 a{color:white;
+    text-decoration:none;
+
+}
+
+ul.menu{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			background-color:black;
+			overflow:hidden;
+		
+        }
+		
+li.menu{
+			float:center;
+      }
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+			background-color:#1976D2;
+		}
+#navcenter {
+width:1350px;
+margin:;
+list-style:none;
+}
+#navcenter li {
+float:left;
+}
+#navcenter a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
+#active2{ background-color: #1A237E ; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.vertical-menu {
+  width: 12%; /* Set a width if you like */
+  background-color:black;
+  float:left;
+}
+
+.vertical-menu a {
+  text-align:center;
+  background-color: black;
+  color: white;
+  display: block; 
+  padding: 21px; 
+  
+}
+
+.vertical-menu a:hover {
+  background-color: #1976D2; /* Dark grey background on mouse-over */
+}
+
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+
+.topnav {
+  background-color:black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: middle;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 23px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#1565C0;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #283593;
+  color: white;
+}
+
+
+
+.loginbox{
+     text-align:center;
+	 width: 350px;
+     height: 500px;
+     background: #B8E2F2;
+     color: #000;
+     top:auto;
+	 left:50%;
+     position:absolute;
+     transform:translate(-40%,-30%);
+     box-sizing:border-box;
+	 padding:70px 30px;
+}
+
+.avatar{
+	 width:100px;
+	 height:100px;
+	 border-radius:50%;
+	 position:absolute;
+	 top:-50px;
+	 left: calc(50% - 50px);
+}
+
+.h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:22px;
+}
+ 
+.loginbox p{
+margin:0;
+padding:0;
+font-weight:bold;
+}
+
+.loginbox input  {
+width:100%;
+margin-bottom:20px;
+}
+.loginbox input[type="text"],input[type="password"]
+{
+border:none;
+border-bottom:1px solid#fff;
+background:transparent;
+outline:none;  
+height:40px;
+color:#000;
+font-size:16px;
+}
+
+.loginbox input[type="submit"]
+{
+border:none;
+background:#fb2525;
+outline:none;  
+height:30px;
+fpnt-size:18px;
+color:#fff;
+border-radius:20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+cursor:pointer;
+background:#offc107;
+color:#000;
+}
+
+.loginbox a{
+text-decoration:none;
+font-size:12px;
+line-height:20px;
+color:darkgrey;
+}
+
+.loginbox a:hover
+{
+color:#000;
+}

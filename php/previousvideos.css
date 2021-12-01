@@ -1,0 +1,311 @@
+.heading{
+position : absolute;
+top: 8%;
+left : 15%;}
+
+.topic{
+background-image: url("../image/milky way.jpg");
+}
+
+.butto:hover{
+			background-color:#1976D2;
+		}
+		
+.butto2:hover{
+			background-color:#1976D2;
+		}
+		
+.butto{
+background-color: #1A237E ; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+position : absolute;
+top: 25px;
+right : 15px;
+}
+
+.butto2{
+position : absolute;
+top: 20px;
+right : 110px;
+}
+
+ul.menu{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			background-color:black;
+			overflow:hidden;
+		
+        }
+		
+li.menu{
+			float:center;
+      }
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+			background-color:#1976D2;
+		}
+#navcenter {
+width:1350px;
+margin:;
+list-style:none;
+}
+#navcenter li {
+float:left;
+}
+#navcenter a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
+#active2{ background-color: #1A237E ; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.vertical-menu {
+  width: 12%; /* Set a width if you like */
+  background-color:black;
+  float:left;
+  height:224.2%
+}
+
+.vertical-menu a {
+  text-align:center;
+  background-color: black;
+  color: white;
+  display: block; 
+  padding: 21px; 
+  
+}
+
+.vertical-menu a:hover {
+  background-color: #1976D2; /* Dark grey background on mouse-over */
+}
+
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+
+.topnav {
+  background-color:black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: middle;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 23px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#1565C0;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #283593;
+  color: white;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  position:relative;
+  left:3.2%;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.vid {
+position:absolute;
+left:17%;
+top:125%;
+}
+
+ .vertical-line{
+        display: inline-block;
+        border-left: 4px solid #ccc;
+        margin: -135px 550px;
+        height: 265px;
+}
+
+.header2 {
+position:absolute;
+left:30%;
+top:120%;
+}
+
+.paginationb a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  position:relative;
+  left:26.2%;
+}
+
+.paginationb a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.paginationb a:hover:not(.active) {background-color: #ddd;}
+
+.vid2 {
+position:absolute;
+left:65%;
+top:125%;
+}
+
+.header22 {
+position:absolute;
+left:68%;
+top:120%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.align0 {
+  font-size: 62.5%;
+  position:absolute;
+top:190%;
+left:42%;
+}
+
+.container {
+  width: 20%;
+  height: 20%;  
+  color: #eee;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  position:sticky;
+  top:180%;
+  left:30%;
+}
+
+.calendar {
+  width: 20rem;
+  height: 25rem;
+  background-color: #222227;
+}
+
+.month {
+background-color: #167e56;
+text-align:center;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  text-align: center;
+  }
+
+.month i {
+  font-size: 2.5rem;
+  cursor: pointer;
+} 
+
+.month h1 {
+ 
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.weekdays {
+  width: 100%;
+  height: 5rem;
+  padding: 0 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.weekdays div {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  width: calc(18rem / 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.days {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.2rem;
+  }
+  
+  .days div {
+  font-size: 0.9rem;
+  margin: 0.3rem;
+  width: calc(14rem / 7);
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .days div:hover:not(.today) {
+  background-color: #262626;
+  border: 0.2rem solid #777;
+  cursor: pointer;
+}
+
+.prev-date,
+.next-date {
+  opacity: 0.5;
+}
+
+.today {
+  background-color: white;
+}
+ .transition: background-color 0.2s;
+}
+
+.align0 {
+position:absolute;
+top:50%;
+left:50%;
+}

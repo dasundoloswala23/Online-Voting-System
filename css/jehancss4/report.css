@@ -1,0 +1,243 @@
+.heading{
+position : absolute;
+top: 8%;
+left : 15%;}
+
+.topic{
+background-image: url("../image/milky way.jpg");
+}
+
+.butto:hover{
+			background-color:#1976D2;
+		}
+		
+.butto2:hover{
+			background-color:#1976D2;
+		}
+		
+.butto{
+background-color: #1A237E ; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+position : absolute;
+top: 25px;
+right : 15px;
+}
+
+.butto2{
+position : absolute;
+top: 20px;
+right : 110px;
+}
+
+ul.menu{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			background-color:black;
+			overflow:hidden;
+		
+        }
+		
+li.menu{
+			float:center;
+      }
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+			background-color:#1976D2;
+		}
+#navcenter {
+width:1350px;
+margin:;
+list-style:none;
+}
+#navcenter li {
+float:left;
+}
+#navcenter a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
+#active2{ background-color: #1A237E ; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.vertical-menu {
+  width: 12%; /* Set a width if you like */
+  background-color:black;
+  float:left;
+  position:absolute;
+  height:93%
+}
+
+.vertical-menu a {
+  text-align:center;
+  background-color: black;
+  color: white;
+  display: block; 
+  padding: 21px; 
+  
+}
+
+.vertical-menu a:hover {
+  background-color: #1976D2; /* Dark grey background on mouse-over */
+}
+
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+
+.topnav {
+  background-color:black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: middle;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 23px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#1565C0;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #283593;
+  color: white;
+}
+
+.vertical { 
+            border: 2px solid black; 
+            height: 170px; 
+            position:absolute; 
+            right: 72%;
+			top:38%;
+			border-color:red;
+        } 
+.h2c {
+		  
+            position:absolute; 
+            right: 52%;
+			top:44.5%;
+		
+		}
+.h2d {
+		  
+            position:absolute; 
+            right: 39%;
+		}
+		
+.h3 {
+		  
+            position:absolute; 
+            right: 67%;
+		}
+.hr {
+position:absolute;
+width: 15%;
+height:0.2%;
+right: 36%;
+background-color: blue;
+}
+
+
+.topnavb {
+  background-color:white;
+  overflow: hidden;
+  border: 5px solid #e7e7e7;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnavb a {
+  float: middle;
+  color: black;
+  text-align: left;
+  padding: 16px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  border-width:10px;
+  border-color: green;
+  
+}
+
+/* Change the color of links on hover */
+.topnavb a:hover {
+  background-color:#1565C0;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnavb a.active2 {
+  background-color: #283593;
+  color: white;
+}
+.butto3{
+background-color: #1A237E ; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position : absolute;
+  top: 720px;
+  left :590px;
+}
+
+.butto4{
+background-color: #1A237E; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position : absolute;
+  top:160px;
+  left :970px;
+}
+
+.butto3:hover{
+			background-color:#1976D2;
+		}
+		
+.butto4:hover{
+			background-color:#1976D2;
+		}
+		
+.tb{
+position:absolute;
+left:13%;
+}
+		
